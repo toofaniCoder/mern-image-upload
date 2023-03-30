@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "server-client": "concurrently \"cd backend && nodemon index\" \"cd frontend && npm run dev\""
+    },
+    "dependencies": {
+        "concurrently": "^8.0.1",
+        "nodemon": "^2.0.22"
+    }
+}
